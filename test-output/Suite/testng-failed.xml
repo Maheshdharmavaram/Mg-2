@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Testcases.TC_001_MoglixLogin">
+      <class name="Testcases.TC_009_wishlist">
         <methods>
+          <include name="verifywishlist"/>
           <include name="captureScreenshot"/>
           <include name="setupurl"/>
-          <include name="clickloginNow"/>
         </methods>
-      </class> <!-- Testcases.TC_001_MoglixLogin -->
+      </class> <!-- Testcases.TC_009_wishlist -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
